@@ -11,6 +11,11 @@ $(document).ready(function () {
         $('#day-selector').on('change', function() {
             // Get selected day
             let selectedDay = $(this).val();
+
+            // Filter the schedule data based on the selected day
+            let filterData = scheduleData.filter( function (schedule) {
+                return selectedDay === "all" || schedule.days.includes(selectedDay);
+            })
         })
     });
 
