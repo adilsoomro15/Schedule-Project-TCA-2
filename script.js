@@ -13,8 +13,8 @@ $(document).ready(function () {
             let selectedDay = $(this).val();
 
             // Filter the schedule data based on the selected day
-            let filterData = scheduleData.filter( function (schedule) {
-                return selectedDay === "all" || schedule.days.includes(selectedDay);
+            let filteredData = scheduleData.filter( function (schedule) {
+                return selectedDay === 'all' || schedule.days.includes(selectedDay);
             })
         })
     });
