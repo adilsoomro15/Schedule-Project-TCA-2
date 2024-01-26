@@ -1,22 +1,122 @@
 {
-    "schedule": [
+    "mySchedule": [
         {
-            "days": ["Monday", "Wednesday", "Friday"],
-            "class_name": "Cyber Security",
-            "room_number": "E202",
-            "teacher_name": "Ms. Rehwinkel"
+            "days": ["A", "B", "C", "E", "F"],
+            "class_name": "Precalc",
+            "room_number": "E215",
+            "teacher_name": "Ploe"
         },
          {
-            "days": ["Tuesday", "Wednesday", "Thursday"],
-            "class_name": "Biology",
-            "room_number": "D201",
-            "teacher_name": "Ms. Tsakiris"
+            "days": ["A", "B", "D", "E", "F"],
+            "class_name": "Anatomy and Physiology",
+            "room_number": "D202",
+            "teacher_name": "Carrione"
         },
          {
-            "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "days": ["A", "C", "D", "E", "G"],
+            "class_name": "English",
+            "room_number": "E104",
+            "teacher_name": "Hock"
+        },
+        {
+            "days": ["A", "B", "D", "E", "G"],
+            "class_name": "Phys Ed",
+            "room_number": "Main Gym",
+            "teacher_name": "Levi"
+        },
+         {
+            "days": ["A", "C", "D", "F", "G"],
+            "class_name": "Criminology and Law",
+            "room_number": "A107",
+            "teacher_name": "Quinn"
+        },
+        {
+            "days": ["B", "C", "E", "F", "G"],
             "class_name": "Web Design",
-            "room_number": "B110",
-            "teacher_name": "Ms. Leonard"
+            "room_number": "B111",
+            "teacher_name": "Kilgore"
         }
-    ]
+    ],
+    "ethanSchedule":[
+     {
+        "days": ["A", "B", "C", "E", "F"],
+        "class_name": "Art",
+        "room_number": "D101",
+        "teacher_name": "Ms. Casella"
+    },
+    {
+        "days": ["A", "B", "D", "E", "F"],
+        "class_name": "Precalculus",
+        "room_number": "E204",
+        "teacher_name": "Mr. Mara"
+    },
+    {
+        "days": ["A", "C", "E", "F", "G"],
+        "class_name": "Gym",
+        "room_number": "Main Gym",
+        "teacher_name": "Mr. Scalzo"
+    },
+     {
+        "days": ["B", "C", "D", "F", "G"],
+        "class_name": "Sociology",
+        "room_number": "A119",
+        "teacher_name": "Mr. McGeough"
+    },
+     {
+        "days": ["A", "B", "D", "E", "G"],
+        "class_name": "Marketing",
+        "room_number": "A132",
+        "teacher_name": "Mr. Cooper"
+    },
+     {
+        "days": ["A", "C", "D", "F", "G"],
+        "class_name": "English",
+        "room_number": "E104",
+        "teacher_name": "Mr. Hock"
+    },
+     {
+        "days": ["B", "C", "E", "F", "G"],
+        "class_name": "Web Design",
+        "room_number": "B111",
+        "teacher_name": "Mr. Kilgore"
+    }
+    ],
+"samSchedule":[
+     {
+        "days": ["A", "B", "C", "E", "F" ],
+        "class_name": "Applied Art",
+        "room_number": "D110",
+        "teacher_name": "Ms. Casella"
+    },
+    {
+        "days": ["A", "C", "D", "E", "F"],
+        "class_name": "AP Computer Science",
+        "room_number": "B111",
+        "teacher_name": "Mr. Kilgore"
+    },
+    {
+        "days": ["A", "C", "D", "E", "G"],
+        "class_name": "Precalculus",
+        "room_number": "E212",
+        "teacher_name": "Mr. Mara"
+    },
+    {
+        "days": ["B", "C", "D", "F", "G"],
+        "class_name": "AP Pyschology",
+        "room_number": "A115",
+        "teacher_name": "Mrs. Foti"
+    },
+    {
+        "days": ["A", "B", "D", "E", "G"],
+        "class_name": "BrookDale English",
+        "room_number": "E111",
+        "teacher_name": "Mr. Sauter"
+    },
+    {
+        "days": ["B", "C", "E", "F", "G"],
+        "class_name": "Honors Web Design",
+        "room_number": "B111",
+        "teacher_name": "Mr.Kilgore"
+    }
+]
 }
